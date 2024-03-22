@@ -1,0 +1,72 @@
+/* #p{
+font-size: 30px;
+text-align: center;
+} */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.file-management{
+    width: 100%;
+    height: 300px;
+     margin: 50px auto;
+    box-sizing: border-box;
+    border: 2px solid green;
+  
+   
+ 
+ }
+ .file-management form{
+     background-color:rgb(228, 227, 227);
+     margin-top: 5%;
+ }
+ 
+ .message img{
+     height: 40px;
+ }
+ #library{
+    background-color: rgb(115, 115, 144);
+    border-radius: 0.5rem;
+    box-shadow: backgrount -1px 1px -1px blue;
+color: white;
+ }
+#university p{
+    color:rgb(189, 44, 102);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+ }
+ .all_box p{
+font-family: 'Times New Roman', Times, serif;
+font-size: 17px;}
+#library:hover{
+border-radius: 0.5rem;
+background-color: rgb(229, 175, 175);
+transition: background-color 1s;
+color: green;
+}
+.message p{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+  
+}
+.message h2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+text-shadow: 1px 1px  green;
+  }
+  .footer{
+    font-family: "Codystar", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-image: url("images/footer.jpg");
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: rgb(198, 217, 213);
+    
+  }
+  .login-form:hover{
+    background-color: rgb(189, 174, 174);
+    transition: 0.5s ease-in-out;
+    box-shadow: -1px 1px red;
+  }
